@@ -44,7 +44,7 @@ const IndexPage = ({ data }) => {
         <input
           type="text"
           aria-label="Search"
-          placeholder="Start typing name or role title here to filter"
+          placeholder="Type name or role to filter"
           onChange={handleInputChange}
         />
       </div>
