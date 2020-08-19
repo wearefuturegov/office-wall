@@ -7,7 +7,8 @@ Keep in mind the first iteration of this has been built by one of the mangement 
 ### TO DO
 
 1. Update SEO and explore a simple password
-2. Add link (twitter / maybe slack?)
+2. Add links (to twitter username)
+3. setup github action to periodically trigger a build/deploy (unless thats possible in airtable?!)
 
 ## Run locally
 
