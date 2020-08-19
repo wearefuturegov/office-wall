@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/cork_tile.png");
+  background-repeat: repeat;
+}
+
+.title {
+  background-color: #e53094;
+  /* height: 100px; */
+}
+
+.pagelogo {
+  display: block !important;
+  padding-top: 10px !important;
+  margin: 0 auto !important;
+  object-fit: none !important;
+}
+.controls {
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 40px;
+  align-items: center;
+}
+.grid {
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 40px;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-rows: 1fr;
+  grid-gap: 25px;
+  align-items: center;
+}
+.grid > article {
+  background-color: white;
+  color: darkslategrey;
+  min-height: 550px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.grid > article img {
+  width: 100%;
+}
+
+.information {
+  margin: 0px 20px 0px 20px;
+}
+.name {
+  color: black;
+  font-weight: 800;
+  margin-bottom: 0px;
+}
+.twitter {
+  font-size: 0.8rem;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+.askabout,
+.fact {
+  font-size: 0.8rem;
+  margin: 0px 0px 15px 0px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+}
