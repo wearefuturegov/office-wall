@@ -78,7 +78,7 @@ export const data = graphql`
             picture {
               localFiles {
                 childImageSharp {
-                  fluid {
+                  fluid(maxWidth: 350) {
                     ...GatsbyImageSharpFluid
                   }
                 }
@@ -91,7 +91,7 @@ export const data = graphql`
     }
     placeholder: file(relativePath: { eq: "default-mugshot.png" }) {
       childImageSharp {
-        fluid {
+        fluid(maxWidth: 350) {
           ...GatsbyImageSharpFluid
         }
       }
