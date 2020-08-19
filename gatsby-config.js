@@ -35,11 +35,12 @@ module.exports = {
       resolve: `gatsby-source-airtable`,
       options: {
         apiKey: process.env.AIRTABLE_API_KEY, // may instead specify via env, see below
-        concurrency: 15, // default, see using markdown and attachments for more information
+        concurrency: 10, // default, see using markdown and attachments for more information
         tables: [
           {
             baseId: `app0ViB59N0ZDNk6f`,
             tableName: `futuregovers`,
+            tableView: `gridview`, // optional
             mapping: { picture: `fileNode` }, // optional, e.g. "text/markdown", "fileNode"
             defaultValues: {
               // currently does not accept null / undefined. use empty string instead
