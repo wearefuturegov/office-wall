@@ -41,6 +41,16 @@ module.exports = {
             baseId: `app0ViB59N0ZDNk6f`,
             tableName: `futuregovers`,
             mapping: { picture: `fileNode` }, // optional, e.g. "text/markdown", "fileNode"
+            defaultValues: {
+              // currently does not accept null / undefined. use empty string instead
+              // and perform your conditional logic on name_of_field.length > 0 ? condition_1 : condition_2
+              awesomeAt: ``,
+              twitterUsername: `n/a`,
+              jobRole: ``,
+              name: ``,
+              randomFact: ``,
+              // ... etc
+            },
           },
         ],
       },
