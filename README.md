@@ -7,7 +7,7 @@ Keep in mind the first iteration of this has been built by one of the mangement 
 ### TO DO
 
 1. Update SEO and explore a simple password
-2. Add links (to twitter username)
+2. Add links (to twitter username & remove when not present)
 3. setup github action to periodically trigger a build/deploy (unless thats possible in airtable?!)
 4. update 404 page and styling
 5. look at my fudged error handling when pictures aren't found.

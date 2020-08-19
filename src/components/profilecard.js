@@ -19,7 +19,7 @@ const ProfileCard = ({ profile, placeholder }) => {
           <p className="name">
             {profile.name} - {profile.jobRole}
           </p>
-          <p className="twitter">{profile.twitterUsername}</p>
+          <p className="twitter">TWITTER: {profile.twitterUsername}</p>
           <p className="askabout">ASK ME ABOUT: {profile.awesomeAt}</p>
           <p className="fact">RANDOM FACT: {profile.randomFact}</p>
         </div>
