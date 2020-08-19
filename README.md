@@ -36,4 +36,4 @@ npm install
 gatsby develop
 ```
 
-5. Grab a cold one and enjoy!
+5. Grab a cold one and enjoy! :)
