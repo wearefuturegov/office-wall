@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import ProfileCard from "../components/profilecard"
 import SEO from "../components/seo"
+import { Link } from "gatsby"
 
 const IndexPage = ({ data }) => {
   const allProfileData = data.allAirtable.edges
@@ -47,6 +48,11 @@ const IndexPage = ({ data }) => {
           placeholder="Type name or role to filter"
           onChange={handleInputChange}
         />
+        <div className="update">
+          <Link to="https://airtable.com/shrtvRMkBxZ0aAlZF">
+            request an update
+          </Link>
+        </div>
       </div>
       <div className="grid">
         {allProfiles.map(({ node }) => {

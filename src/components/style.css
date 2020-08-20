@@ -27,6 +27,14 @@ body {
   padding: 20px 40px;
   align-items: center;
 }
+.update {
+  width: 200px;
+}
+.update > a {
+  background-color: #e53094;
+  color: white;
+  text-align: center;
+}
 .grid {
   display: grid;
   max-width: 1200px;
