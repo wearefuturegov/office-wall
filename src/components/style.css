@@ -28,10 +28,11 @@ body {
   align-items: center;
 }
 .update {
-  width: 200px;
+  text-align: right;
 }
 .update > a {
   background-color: #e53094;
+  padding: 2px;
   color: white;
   text-align: center;
 }
